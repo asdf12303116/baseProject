@@ -15,7 +15,7 @@
   "private": true,
   "dependencies": {
     "@pureadmin/descriptions": "^1.1.1",
-    "@pureadmin/table": "^2.3.2",
+    "@pureadmin/table": "^3.2.1",
     "@pureadmin/utils": "^1.9.6",
     "@vueuse/core": "^10.2.0",
     "@vueuse/motion": "^2.0.0",
