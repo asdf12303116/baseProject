@@ -116,10 +116,10 @@ importers:
         version: 5.62.0(eslint@8.57.1)(typescript@5.0.4)
       '@vitejs/plugin-vue':
         specifier: ^4.2.3
-        version: 4.6.2(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.0))(vue@3.5.13(typescript@5.0.4))
+        version: 4.6.2(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.1))(vue@3.5.13(typescript@5.0.4))
       '@vitejs/plugin-vue-jsx':
         specifier: ^3.0.1
-        version: 3.1.0(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.0))(vue@3.5.13(typescript@5.0.4))
+        version: 3.1.0(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.1))(vue@3.5.13(typescript@5.0.4))
       '@vue/eslint-config-prettier':
         specifier: ^7.1.0
         version: 7.1.0(eslint@8.57.1)(prettier@2.8.8)
@@ -218,22 +218,22 @@ importers:
         version: 3.4.17
       terser:
         specifier: ^5.18.1
-        version: 5.38.0
+        version: 5.38.1
       typescript:
         specifier: 5.0.4
         version: 5.0.4
       vite:
         specifier: ^4.3.9
-        version: 4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.0)
+        version: 4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.1)
       vite-plugin-cdn-import:
         specifier: ^0.3.5
         version: 0.3.5(rollup@3.29.5)
       vite-plugin-compression:
         specifier: ^0.5.1
-        version: 0.5.1(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.0))
+        version: 0.5.1(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.1))
       vite-plugin-mock:
         specifier: 2.9.6
-        version: 2.9.6(mockjs@1.1.0)(rollup@3.29.5)(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.0))
+        version: 2.9.6(mockjs@1.1.0)(rollup@3.29.5)(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.1))
       vite-plugin-remove-console:
         specifier: ^2.1.1
         version: 2.2.0
@@ -247,7 +247,249 @@ importers:
         specifier: ^1.8.1
         version: 1.8.27(typescript@5.0.4)
 
-  web-apps/lm-web: {}
+  web-apps/lm-web:
+    dependencies:
+      '@pureadmin/descriptions':
+        specifier: ^1.1.1
+        version: 1.2.1(echarts@5.6.0)(element-plus@2.5.6(vue@3.5.13(typescript@5.0.4)))(typescript@5.0.4)
+      '@pureadmin/table':
+        specifier: ^2.3.2
+        version: 2.4.7(element-plus@2.5.6(vue@3.5.13(typescript@5.0.4)))(typescript@5.0.4)
+      '@pureadmin/utils':
+        specifier: ^1.9.6
+        version: 1.18.0(echarts@5.6.0)(vue@3.5.13(typescript@5.0.4))
+      '@vueuse/core':
+        specifier: ^10.2.0
+        version: 10.11.1(vue@3.5.13(typescript@5.0.4))
+      '@vueuse/motion':
+        specifier: ^2.0.0
+        version: 2.2.6(rollup@3.29.5)(vue@3.5.13(typescript@5.0.4))
+      animate.css:
+        specifier: ^4.1.1
+        version: 4.1.1
+      axios:
+        specifier: ^1.6.0
+        version: 1.7.9
+      dayjs:
+        specifier: ^1.11.8
+        version: 1.11.13
+      echarts:
+        specifier: ^5.4.2
+        version: 5.6.0
+      element-plus:
+        specifier: 2.5.6
+        version: 2.5.6(vue@3.5.13(typescript@5.0.4))
+      js-cookie:
+        specifier: ^3.0.5
+        version: 3.0.5
+      mitt:
+        specifier: ^3.0.0
+        version: 3.0.1
+      mockjs:
+        specifier: ^1.1.0
+        version: 1.1.0
+      nprogress:
+        specifier: ^0.2.0
+        version: 0.2.0
+      path:
+        specifier: ^0.12.7
+        version: 0.12.7
+      pinia:
+        specifier: ^2.1.4
+        version: 2.3.1(typescript@5.0.4)(vue@3.5.13(typescript@5.0.4))
+      pinyin-pro:
+        specifier: ^3.15.2
+        version: 3.26.0
+      qs:
+        specifier: ^6.11.2
+        version: 6.14.0
+      responsive-storage:
+        specifier: ^2.2.0
+        version: 2.2.0
+      sortablejs:
+        specifier: ^1.15.0
+        version: 1.15.6
+      vue:
+        specifier: ^3.3.4
+        version: 3.5.13(typescript@5.0.4)
+      vue-demi:
+        specifier: ^0.14.10
+        version: 0.14.10(vue@3.5.13(typescript@5.0.4))
+      vue-router:
+        specifier: ^4.2.2
+        version: 4.5.0(vue@3.5.13(typescript@5.0.4))
+      vue-types:
+        specifier: ^5.1.0
+        version: 5.1.3(vue@3.5.13(typescript@5.0.4))
+    devDependencies:
+      '@iconify-icons/ep':
+        specifier: ^1.2.12
+        version: 1.2.12
+      '@iconify-icons/ri':
+        specifier: ^1.2.9
+        version: 1.2.10
+      '@iconify/vue':
+        specifier: ^4.1.1
+        version: 4.3.0(vue@3.5.13(typescript@5.0.4))
+      '@pureadmin/theme':
+        specifier: ^3.1.0
+        version: 3.3.0
+      '@types/js-cookie':
+        specifier: ^3.0.3
+        version: 3.0.6
+      '@types/mockjs':
+        specifier: ^1.0.7
+        version: 1.0.10
+      '@types/node':
+        specifier: ^20.3.1
+        version: 20.17.17
+      '@types/nprogress':
+        specifier: 0.2.0
+        version: 0.2.0
+      '@types/qs':
+        specifier: ^6.9.7
+        version: 6.9.18
+      '@types/sortablejs':
+        specifier: ^1.15.1
+        version: 1.15.8
+      '@typescript-eslint/eslint-plugin':
+        specifier: ^5.60.0
+        version: 5.62.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@5.0.4))(eslint@8.57.1)(typescript@5.0.4)
+      '@typescript-eslint/parser':
+        specifier: ^5.60.0
+        version: 5.62.0(eslint@8.57.1)(typescript@5.0.4)
+      '@vitejs/plugin-vue':
+        specifier: ^4.2.3
+        version: 4.6.2(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.1))(vue@3.5.13(typescript@5.0.4))
+      '@vitejs/plugin-vue-jsx':
+        specifier: ^3.0.1
+        version: 3.1.0(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.1))(vue@3.5.13(typescript@5.0.4))
+      '@vue/eslint-config-prettier':
+        specifier: ^7.1.0
+        version: 7.1.0(eslint@8.57.1)(prettier@2.8.8)
+      '@vue/eslint-config-typescript':
+        specifier: ^11.0.3
+        version: 11.0.3(eslint-plugin-vue@9.32.0(eslint@8.57.1))(eslint@8.57.1)(typescript@5.0.4)
+      autoprefixer:
+        specifier: ^10.4.14
+        version: 10.4.20(postcss@8.5.1)
+      cloc:
+        specifier: ^2.11.0
+        version: 2.11.0
+      cssnano:
+        specifier: ^6.0.1
+        version: 6.1.2(postcss@8.5.1)
+      eslint:
+        specifier: ^8.43.0
+        version: 8.57.1
+      eslint-plugin-prettier:
+        specifier: ^4.2.1
+        version: 4.2.1(eslint-config-prettier@8.10.0(eslint@8.57.1))(eslint@8.57.1)(prettier@2.8.8)
+      eslint-plugin-vue:
+        specifier: ^9.15.1
+        version: 9.32.0(eslint@8.57.1)
+      picocolors:
+        specifier: ^1.0.0
+        version: 1.1.1
+      postcss:
+        specifier: ^8.4.24
+        version: 8.5.1
+      postcss-html:
+        specifier: ^1.5.0
+        version: 1.8.0
+      postcss-import:
+        specifier: ^15.1.0
+        version: 15.1.0(postcss@8.5.1)
+      postcss-scss:
+        specifier: ^4.0.6
+        version: 4.0.9(postcss@8.5.1)
+      prettier:
+        specifier: ^2.8.8
+        version: 2.8.8
+      pretty-quick:
+        specifier: ^3.1.3
+        version: 3.3.1(prettier@2.8.8)
+      rimraf:
+        specifier: ^5.0.1
+        version: 5.0.10
+      rollup-plugin-visualizer:
+        specifier: ^5.9.2
+        version: 5.14.0(rollup@3.29.5)
+      sass:
+        specifier: ^1.63.6
+        version: 1.84.0
+      sass-loader:
+        specifier: ^13.3.2
+        version: 13.3.3(sass@1.84.0)(webpack@5.97.1)
+      stylelint:
+        specifier: ^15.9.0
+        version: 15.11.0(typescript@5.0.4)
+      stylelint-config-html:
+        specifier: ^1.1.0
+        version: 1.1.0(postcss-html@1.8.0)(stylelint@15.11.0(typescript@5.0.4))
+      stylelint-config-recess-order:
+        specifier: ^4.2.0
+        version: 4.6.0(stylelint@15.11.0(typescript@5.0.4))
+      stylelint-config-recommended:
+        specifier: ^12.0.0
+        version: 12.0.0(stylelint@15.11.0(typescript@5.0.4))
+      stylelint-config-recommended-scss:
+        specifier: ^12.0.0
+        version: 12.0.0(postcss@8.5.1)(stylelint@15.11.0(typescript@5.0.4))
+      stylelint-config-recommended-vue:
+        specifier: ^1.4.0
+        version: 1.6.0(postcss-html@1.8.0)(stylelint@15.11.0(typescript@5.0.4))
+      stylelint-config-standard:
+        specifier: ^33.0.0
+        version: 33.0.0(stylelint@15.11.0(typescript@5.0.4))
+      stylelint-config-standard-scss:
+        specifier: ^9.0.0
+        version: 9.0.0(postcss@8.5.1)(stylelint@15.11.0(typescript@5.0.4))
+      stylelint-order:
+        specifier: ^6.0.3
+        version: 6.0.4(stylelint@15.11.0(typescript@5.0.4))
+      stylelint-prettier:
+        specifier: ^3.0.0
+        version: 3.0.0(prettier@2.8.8)(stylelint@15.11.0(typescript@5.0.4))
+      stylelint-scss:
+        specifier: ^5.0.1
+        version: 5.3.2(stylelint@15.11.0(typescript@5.0.4))
+      svgo:
+        specifier: ^3.0.2
+        version: 3.3.2
+      tailwindcss:
+        specifier: ^3.3.2
+        version: 3.4.17
+      terser:
+        specifier: ^5.18.1
+        version: 5.38.1
+      typescript:
+        specifier: 5.0.4
+        version: 5.0.4
+      vite:
+        specifier: ^4.3.9
+        version: 4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.1)
+      vite-plugin-cdn-import:
+        specifier: ^0.3.5
+        version: 0.3.5(rollup@3.29.5)
+      vite-plugin-compression:
+        specifier: ^0.5.1
+        version: 0.5.1(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.1))
+      vite-plugin-mock:
+        specifier: 2.9.6
+        version: 2.9.6(mockjs@1.1.0)(rollup@3.29.5)(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.1))
+      vite-plugin-remove-console:
+        specifier: ^2.1.1
+        version: 2.2.0
+      vite-svg-loader:
+        specifier: ^4.0.0
+        version: 4.0.0
+      vue-eslint-parser:
+        specifier: ^9.3.1
+        version: 9.4.3(eslint@8.57.1)
+      vue-tsc:
+        specifier: ^1.8.1
+        version: 1.8.27(typescript@5.0.4)
 
 packages:
 
@@ -3403,8 +3645,8 @@ packages:
       uglify-js:
         optional: true
 
-  terser@5.38.0:
-    resolution: {integrity: sha512-a4GD5R1TjEeuCT6ZRiYMHmIf7okbCPEuhQET8bczV6FrQMMlFXA1n+G0KKjdlFCm3TEHV77GxfZB3vZSUQGFpg==}
+  terser@5.38.1:
+    resolution: {integrity: sha512-GWANVlPM/ZfYzuPHjq0nxT+EbOEDDN3Jwhwdg1D8TU8oSkktp8w64Uq4auuGLxFSoNTRDncTq2hQHX1Ld9KHkA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -4392,19 +4634,19 @@ snapshots:
 
   '@ungap/structured-clone@1.3.0': {}
 
-  '@vitejs/plugin-vue-jsx@3.1.0(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.0))(vue@3.5.13(typescript@5.0.4))':
+  '@vitejs/plugin-vue-jsx@3.1.0(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.1))(vue@3.5.13(typescript@5.0.4))':
     dependencies:
       '@babel/core': 7.26.7
       '@babel/plugin-transform-typescript': 7.26.7(@babel/core@7.26.7)
       '@vue/babel-plugin-jsx': 1.2.5(@babel/core@7.26.7)
-      vite: 4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.0)
+      vite: 4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.1)
       vue: 3.5.13(typescript@5.0.4)
     transitivePeerDependencies:
       - supports-color
 
-  '@vitejs/plugin-vue@4.6.2(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.0))(vue@3.5.13(typescript@5.0.4))':
+  '@vitejs/plugin-vue@4.6.2(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.1))(vue@3.5.13(typescript@5.0.4))':
     dependencies:
-      vite: 4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.0)
+      vite: 4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.1)
       vue: 3.5.13(typescript@5.0.4)
 
   '@volar/language-core@1.11.1':
@@ -7061,10 +7303,10 @@ snapshots:
       jest-worker: 27.5.1
       schema-utils: 4.3.0
       serialize-javascript: 6.0.2
-      terser: 5.38.0
+      terser: 5.38.1
       webpack: 5.97.1
 
-  terser@5.38.0:
+  terser@5.38.1:
     dependencies:
       '@jridgewell/source-map': 0.3.6
       acorn: 8.14.0
@@ -7206,16 +7448,16 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
-  vite-plugin-compression@0.5.1(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.0)):
+  vite-plugin-compression@0.5.1(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.1)):
     dependencies:
       chalk: 4.1.2
       debug: 4.4.0
       fs-extra: 10.1.0
-      vite: 4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.0)
+      vite: 4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.1)
     transitivePeerDependencies:
       - supports-color
 
-  vite-plugin-mock@2.9.6(mockjs@1.1.0)(rollup@3.29.5)(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.0)):
+  vite-plugin-mock@2.9.6(mockjs@1.1.0)(rollup@3.29.5)(vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.1)):
     dependencies:
       '@rollup/plugin-node-resolve': 13.3.0(rollup@3.29.5)
       '@types/mockjs': 1.0.10
@@ -7227,7 +7469,7 @@ snapshots:
       fast-glob: 3.3.3
       mockjs: 1.1.0
       path-to-regexp: 6.3.0
-      vite: 4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.0)
+      vite: 4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.1)
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -7239,7 +7481,7 @@ snapshots:
       '@vue/compiler-sfc': 3.5.13
       svgo: 3.3.2
 
-  vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.0):
+  vite@4.5.9(@types/node@20.17.17)(sass@1.84.0)(terser@5.38.1):
     dependencies:
       esbuild: 0.18.20
       postcss: 8.5.1
@@ -7248,7 +7490,7 @@ snapshots:
       '@types/node': 20.17.17
       fsevents: 2.3.3
       sass: 1.84.0
-      terser: 5.38.0
+      terser: 5.38.1
 
   vue-demi@0.14.10(vue@3.5.13(typescript@5.0.4)):
     dependencies:
